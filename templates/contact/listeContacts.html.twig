@@ -6,11 +6,11 @@
 
 <h1 class="text-center pt-2">Liste des contacts</h1>
 
-<div class="row">
+<div class="row"> 
 
 {% for leContact in lesContacts %}
 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3">
-                <div class="card mb-3" style="width :unset">
+                <div class="card mb-3">
                 <h4 class="card-header">{{leContact.nom}} {{leContact.prenom}}</h4>
                    <img class="avatar mx-auto my-3" style="height:auto; max-width :200px; display:block;" src=" {{leContact.avatar}}" alt="Card image">
 
